@@ -1,8 +1,8 @@
 from random import randrange
-n = randrange(1000)
-while True:
+n = randrange(500)
+while True:   
     v = int(input())
     if n == v:
-       print("!!!Winner!!!")
+       print("!!!!!!YOU WON!!!!!!!")
        break
-    print('Try Smaller' if (n < v) else 'Try Bigger')
+    print('Try Smaller, Please' if (n < v) else 'Try Bigger, Please')
